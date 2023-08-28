@@ -34,7 +34,7 @@ key=                     # 通知密钥
 
 安装依赖项：`pip install -r requirements.txt`
 
-运行：`python ./AutoRestartMySQL.py`
+运行：`python ./autorestartmysql.py`
 
 ## 开机自启
 
@@ -44,5 +44,5 @@ key=                     # 通知密钥
 
 加入如下行：
 
-`cd /[path]/AutoRestartMySQL/src && nohup python ./AutoRestartMySQL.py &`
+`cd /[path]/AutoRestartMySQL/src && nohup python ./autorestartmysql.py &`
 

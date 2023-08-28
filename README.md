@@ -34,7 +34,7 @@ key=                     # message notifications key
 
 Install Dependencies: `pip install -r requirements.txt`
 
-Run: `python ./AutoRestartMySQL.py`
+Run: `python ./autorestartmysql.py`
 
 ## Autorun
 
@@ -44,5 +44,5 @@ Run: `python ./AutoRestartMySQL.py`
 
 Add as follows:
 
-`cd /[path]/AutoRestartMySQL/src && nohup python ./AutoRestartMySQL.py &`
+`cd /[path]/AutoRestartMySQL/src && nohup python ./autorestartmysql.py &`
 
