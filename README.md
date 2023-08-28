@@ -5,6 +5,7 @@ monitor and restart mysql process
 ## Run
 
 Install Dependencies: `pip install -r requirements.txt`
+
 Run: `python ./AutoRestartMySQL.py`
 
 ## Config
@@ -34,6 +35,8 @@ key=                     # message notifications key
 ### CentOS
 
 `sudo vim /etc/rc.local `
+
 Add as follows:
+
 `cd /[path]/AutoRestartMySQL/src && python ./AutoRestartMySQL.py`
 

@@ -5,11 +5,13 @@
 ## 运行
 
 安装依赖项：`pip install -r requirements.txt`
+
 运行：`python ./AutoRestartMySQL.py`
 
 ## 配置
 
 config.ini文件配置
+
 ```
 [main]
 name=AutoRestartMySQL       # 服务名称，用于消息通知时区分不同服务器
@@ -33,6 +35,8 @@ key=                     # 通知密钥
 ### CentOS
 
 `sudo vim /etc/rc.local `
+
 加入如下行：
+
 `cd /[path]/AutoRestartMySQL/src && python ./AutoRestartMySQL.py`
 
