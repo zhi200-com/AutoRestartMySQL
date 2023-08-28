@@ -6,13 +6,9 @@ Our Website: [https://zhi200.com/](https://zhi200.com/cms/kaiyuanxiangmu/164.htm
 
 Author Email: [opensource@zhi200.com](mailto:opensource@zhi200.com)
 
-## Run
-
-Install Dependencies: `pip install -r requirements.txt`
-
-Run: `python ./AutoRestartMySQL.py`
-
 ## Config
+
+Generate Configuration File: `cp config.ini.cf config.ini`
 
 `config.ini` File Configuration
 
@@ -33,6 +29,12 @@ channels=zhimessenger_1,dingtalk_robot_1,wechat_webhook_1       # channels for m
 type=zhimessenger               # message notifications type: zhimessenger / dingtalk_robot / wechat_webhook
 key=                     # message notifications key
 ```
+
+## Run
+
+Install Dependencies: `pip install -r requirements.txt`
+
+Run: `python ./AutoRestartMySQL.py`
 
 ## Autorun
 
