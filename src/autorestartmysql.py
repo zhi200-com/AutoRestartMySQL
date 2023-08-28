@@ -49,7 +49,7 @@ def notify_zhimessenger(text, key):
     url = 'https://zhi200.com/api/messenger/push'
     data = '{"level":8,"type":"message","source":"%s","content":"%s","sign":"%s"}' % (node_name, text, key)
     headers = {'Content-Type': 'application/json'}
-    res = requests.post(url=url, data=data, headers=headers)
+    res = requests.post(url=url, data=data, headers=headers, verify=False)
 
 def notify_dingtalk_robot(text, key):
     global node_name
