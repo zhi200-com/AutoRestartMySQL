@@ -2,6 +2,10 @@
 
 monitor and restart mysql process
 
+Our Website: [https://zhi200.com/](https://zhi200.com/cms/kaiyuanxiangmu/164.html)
+
+Author Email: [opensource@zhi200.com](mailto:opensource@zhi200.com)
+
 ## Run
 
 Install Dependencies: `pip install -r requirements.txt`

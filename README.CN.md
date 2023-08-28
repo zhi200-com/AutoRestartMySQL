@@ -2,6 +2,10 @@
 
 监控MySQL进程，并自动重启。
 
+项目官网地址：[https://zhi200.com/](https://zhi200.com/cms/kaiyuanxiangmu/164.html)
+
+作者邮箱：[opensource@zhi200.com](mailto:opensource@zhi200.com)
+
 ## 运行
 
 安装依赖项：`pip install -r requirements.txt`
