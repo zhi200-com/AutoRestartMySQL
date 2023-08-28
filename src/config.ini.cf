@@ -1,0 +1,28 @@
+[main]
+; name for message notification
+name=AutoRestartMySQL
+
+[mysql]
+interval=60
+host=127.0.0.1
+port=3306
+restart=service mysql restart
+
+[notify]
+;channel list
+channels=zhimessenger_1,dingtalk_robot_1,wechat_webhook_1
+
+[zhimessenger_1]
+;type: zhimessenger / dingtalk_robot / wechat_webhook
+type=zhimessenger
+key=
+
+[dingtalk_robot_1]
+;type: zhimessenger / dingtalk_robot / wechat_webhook
+type=dingtalk_robot
+key=
+
+[wechat_webhook_1]
+;type: zhimessenger / dingtalk_robot / wechat_webhook
+type=wechat_webhook
+key=
