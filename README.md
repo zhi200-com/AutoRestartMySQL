@@ -44,5 +44,5 @@ Run: `python ./AutoRestartMySQL.py`
 
 Add as follows:
 
-`cd /[path]/AutoRestartMySQL/src && python ./AutoRestartMySQL.py`
+`cd /[path]/AutoRestartMySQL/src && nohup python ./AutoRestartMySQL.py &`
 

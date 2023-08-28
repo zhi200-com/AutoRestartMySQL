@@ -44,5 +44,5 @@ key=                     # 通知密钥
 
 加入如下行：
 
-`cd /[path]/AutoRestartMySQL/src && python ./AutoRestartMySQL.py`
+`cd /[path]/AutoRestartMySQL/src && nohup python ./AutoRestartMySQL.py &`
 
