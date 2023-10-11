@@ -20,6 +20,14 @@ else:
 
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
+
+if Py_version < (3, 0):
+    from requests.packages.urllib3.exceptions import InsecureRequestWarning
+    requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
+else:
+    import urllib3
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
 node_name = 'AutoRestartMySQL'
 logger=logging.getLogger('autorestartmysql') 
 
