@@ -38,6 +38,14 @@ key=                     # 通知密钥
 
 ## 开机自启
 
+### AlmaLinux
+
+`sudo vim /etc/rc.d/rc.local `
+
+加入如下行：
+
+`cd /[path]/AutoRestartMySQL/src && nohup python ./autorestartmysql.py &`
+
 ### CentOS
 
 `sudo vim /etc/rc.local `

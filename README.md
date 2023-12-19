@@ -38,6 +38,14 @@ Run: `python ./autorestartmysql.py`
 
 ## Autorun
 
+### AlmaLinux
+
+`sudo vim /etc/rc.d/rc.local `
+
+Add as follows:
+
+`cd /[path]/AutoRestartMySQL/src && nohup python ./autorestartmysql.py &`
+
 ### CentOS
 
 `sudo vim /etc/rc.local `
